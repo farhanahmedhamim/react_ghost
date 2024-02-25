@@ -1,0 +1,15 @@
+.ran {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e30606;
+    color: #fff;
+    position: fixed;
+    bottom: 70px;
+    right: 30px;
+    z-index: 1000000;
+    cursor: pointer;
+    transition: .5s;
+}

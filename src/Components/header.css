@@ -1,0 +1,308 @@
+header {
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px;
+    background-color: #000000ac;
+    z-index: 1000000;
+}
+
+header.active {
+    position: fixed;
+    z-index: 10000;
+    background-color: #000;
+    border-bottom: 1px solid #ff0000;
+}
+
+
+.headerLeft img {
+    width: 215px;
+    object-fit: contain;
+}
+
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.contain {
+    color: #fff;
+    list-style: none;
+    padding: 45px 18px;
+    cursor: pointer;
+    transition: .4s;
+    font-size: 15px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.maxwide {
+    position: absolute;
+    top: 110px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 30px;
+    background-color: black;
+    pointer-events: none;
+    opacity: 0;
+    transition: .5s;
+    width: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.maxwidee {
+    position: absolute;
+    top: 110px;
+    left: 0px;
+    padding: 30px 20px;
+    background-color: black;
+    pointer-events: none;
+    opacity: 0;
+    transition: .5s;
+    width: 220px;
+}
+
+
+.singlhead {
+    width: 150px;
+}
+
+
+.contain:hover .maxwide {
+    opacity: 1;
+    pointer-events: all;
+    top: 90px;
+}
+
+.contain:hover .maxwidee {
+    opacity: 1;
+    pointer-events: all;
+    top: 90px;
+}
+
+
+.contain:hover .more,
+.some {
+    color: #fff;
+}
+
+.contain:hover .h33 {
+    color: #fff;
+    font-size: 21px;
+}
+
+
+
+
+.contain i {
+    margin-left: 7px;
+    font-size: 11px;
+}
+
+
+
+.contain:hover {
+    color: #d90d0d;
+}
+
+
+
+.headerRight {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.headerRight i {
+    color: #ffffff;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.profile {
+    width: 40px;
+    height: 40px;
+    background-color: #d90d0d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 30px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.headerRight button {
+    width: 120px;
+    height: 40px;
+    border: none;
+    font-size: 15px;
+    background-color: #d90d0d;
+    color: #fff;
+    cursor: pointer;
+}
+
+.more {
+    width: 130px;
+}
+
+
+.more li {
+    margin: 16px 0px;
+    list-style: none;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.more li:hover {
+    color: #d90d0d;
+}
+
+
+
+
+.h33 {
+    margin-bottom: 20px;
+}
+
+
+.some li {
+    margin: 15px 0px;
+    list-style: none;
+    transition: .3s;
+    font-size: 16px;
+}
+
+
+.some li:hover {
+    color: #d90d0d;
+}
+
+
+.fa-bars {
+    margin-left: 20px;
+    cursor: pointer;
+    font-size: 20px !important;
+    display: none;
+}
+
+.overlay {
+    /* display: none; */
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #ffffff51;
+    z-index: 1000;
+}
+
+@media(max-width:1200px) {
+    header {
+        padding: 0px 10px;
+    }
+}
+
+@media(max-width:1100px) {
+
+    header {
+        padding: 10px;
+    }
+
+    .headerCenter {
+        width: 300px;
+        height: 100vh;
+        background-color: #ffffff;
+        padding: 30px 0px;
+        position: absolute;
+        top: 0px;
+        transition: .3s;
+        z-index: 10000;
+        overflow-y: auto;
+        overflow-x: clip;
+    }
+
+    .maxwidee {
+        width: 100%;
+    }
+
+    .menu {
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+
+    .contain {
+        width: 100%;
+        padding: 15px 15px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        border-bottom: 1px solid #5c5c5c;
+        color: black;
+        overflow: hidden;
+    }
+
+
+    .contain:hover .maxwide {
+        pointer-events: all;
+        top: 70px;
+    }
+
+   
+
+    .maxwide {
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+
+    .more {
+        width: 270px;
+    }
+
+    .singlhead {
+        width: 100%;
+    }
+
+    .fa-bars {
+        display: block !important;
+    }
+
+
+
+}
+
+@media(max-width:500px) {
+    header {
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .headerLeft img {
+        width: 150px;
+    }
+
+    .profile {
+        margin: 0px 10px;
+    }
+}

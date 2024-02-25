@@ -1,0 +1,175 @@
+footer {
+    width: 100%;
+}
+
+
+.footertop {
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    background-color: #221f1f;
+}
+
+
+.footsingl {
+    width: 23%;
+}
+
+
+.footsingl img {
+    width: 210px;
+}
+
+.footsingl p {
+    color: #cbc9c9;
+    line-height: 30px;
+    word-spacing: 1px;
+}
+
+
+.eccco {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 30px;
+}
+
+.eccco li {
+    margin-right: 25px;
+    color: #fff;
+    list-style: none;
+    font-size: 20px;
+    transition: .5s;
+}
+
+.eccco li:hover {
+    color: #d90404;
+}
+
+
+.footsingl h2 {
+    color: #fff;
+    margin-bottom: 28px;
+    font-size: 28px;
+}
+
+.lists {
+    margin-right: 50px;
+}
+
+.lists li {
+    color: #fff;
+    list-style: none;
+    margin-bottom: 15px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    transition: .5s;
+}
+
+
+.lists li:hover {
+    color: #d90404;
+}
+
+.lists li i {
+    margin-right: 10px;
+    color: #d90404;
+}
+
+
+.sobis {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sobis img {
+    width: 48%;
+}
+
+
+
+.footerbtm {
+    width: 100%;
+    padding: 20px 0px;
+    background-color: #ea0202;
+}
+
+
+.footerbtm p {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mukit {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+
+
+
+@media(max-width:1000px) {
+
+    .footertop {
+        padding: 50px 20px;
+    }
+}
+
+@media(max-width:900px) {
+
+    .footertop {
+        padding: 50px 20px;
+        flex-wrap: wrap;
+    }
+    .footsingl {
+        width: 46%;
+        margin: 30px 0px;
+    }
+}
+
+
+@media(max-width:700px) {
+
+    .footertop {
+        padding: 50px 10px;
+    }
+    
+}
+
+
+@media(max-width:500px) {
+
+    .footsingl {
+        width: 100%;
+    }
+    
+}
+
+
+@media(max-width:400px) {
+
+    .sobis {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+
+    .sobis img {
+        width: 60%;
+        margin: 10px 0px;
+    }
+    
+}
+
