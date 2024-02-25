@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react_ghost/static/css/main.228cc561.css",
+    "main.js": "/react_ghost/static/js/main.5a323a1c.js",
+    "static/js/787.17b40a61.chunk.js": "/react_ghost/static/js/787.17b40a61.chunk.js",
+    "static/media/1-1.jpg": "/react_ghost/static/media/1-1.2e08d6c90167fd005312.jpg",
+    "static/media/7.jpg": "/react_ghost/static/media/7.49d0616306318bad405c.jpg",
+    "static/media/26-1.jpg": "/react_ghost/static/media/26-1.253c363105659b2e0203.jpg",
+    "static/media/27.jpg": "/react_ghost/static/media/27.c60cce4b227368cf07d5.jpg",
+    "static/media/17.jpg": "/react_ghost/static/media/17.ea720df47ff46bb7413f.jpg",
+    "static/media/18.jpg": "/react_ghost/static/media/18.dd338a8c4f4408923e6b.jpg",
+    "static/media/8.jpg": "/react_ghost/static/media/8.dd338a8c4f4408923e6b.jpg",
+    "static/media/3-1.jpg": "/react_ghost/static/media/3-1.e3260fc068b8a208fb50.jpg",
+    "index.html": "/react_ghost/index.html",
+    "main.228cc561.css.map": "/react_ghost/static/css/main.228cc561.css.map",
+    "main.5a323a1c.js.map": "/react_ghost/static/js/main.5a323a1c.js.map",
+    "787.17b40a61.chunk.js.map": "/react_ghost/static/js/787.17b40a61.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.228cc561.css",
+    "static/js/main.5a323a1c.js"
+  ]
+}
